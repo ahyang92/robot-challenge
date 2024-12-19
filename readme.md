@@ -20,6 +20,7 @@
 
 ### Run tests
 ```
+  rspec app/specs
 ```
 
 ### Sample commands
