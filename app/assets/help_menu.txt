@@ -1,0 +1,17 @@
++----------------+----------------------------------------------------------------+
+| Command        | Description                                                    |
++-----------------+---------------------------------------------------------------+
+| PLACE          | Place the robot on the table. Requires coordinates and         |
+|                | direction. e.g PLACE 1,2,N or PLACE 1,2,NORTH                  |
++----------------+----------------------------------------------------------------+
+| MOVE           | Robot will move 1 step based on the direction it is            |
+|                | facing.                                                        |
++----------------+----------------------------------------------------------------+
+| RIGHT          | Robot will rotate 90 degrees to the right (or clockwise)       |
+|                | based on its current direction.                                |
++----------------+----------------------------------------------------------------+
+| LEFT           | Robot will rotate 90 degrees to the left (or anti-clockwise)   |
+|                | based on its current direction.                                |
++----------------+----------------------------------------------------------------+
+| REPORT         | Report robot's current coordinates and direction               |
++----------------+----------------------------------------------------------------+
